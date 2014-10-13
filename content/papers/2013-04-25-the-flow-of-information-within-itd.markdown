@@ -1,0 +1,31 @@
+---
+layout: page
+#title: "Papers"
+#date: 2012-10-05 21:54
+comments: true
+sharing: true
+footer: true
+draft: true
+---
+
+# The Flow of Information within ITD
+
+The Information Technology Department (ITD) of North Dakota uses information to efficiently manage and meet its customer’s needs.  The flow of this information creates a trail that starts when a customer submits a request for service and continues even after the work is completed.  Over time, information is captured, processed, analyzed, and acted upon to fulfill the customer’s needs.  Internally to ITD, information is used to manage employee’s daily workloads and forecast future service needs.   From end to end, information drives the business.
+
+ITD provides centralized IT services to other state agencies.  These services include software development, system hosting, desktop support, and networking services.  To manage their customer’s requests for service, a custom information system was created in-house.  The system was named WMS for Work Management System and has the primary purpose of tracking customer requests for service from start to finish.  The WMS system currently handles requests for four main categories of service request types and 38 sub-types.  The four main category types are computer system, software development, security, and networking.  Each type corresponds with a different division within ITD.
+
+From an information and process flow perspective, the typical first step is that a customer logs into the WMS system and creates a work order.  A work order is an item owned by the customer.  It can be thought of as a wrapper around a collection of sub-tasks that need to be done to complete a larger unit of work and in WMS these sub-tasks are called service requests.  The customer selects a service request type depending on the type of work they wish to have done.  For each request type, the customer is asked to submit the necessary information needed for a worker to complete it.  The customer also submits the timeframe in which they need the work finished.
+
+After the service request is submitted, it goes to an unassigned work queue that is monitored by the team leaders of the four main divisions within ITD.  The appropriate team leader then picks up the request and assigns an owner to it.  The owner is often the team leader that picked up the request, but does not have to be.  The owner enters an overall estimate of the work effect needed to complete the request.  They then create work assignments for each of the individuals required to complete the work.  Each work assignment also has its own deadline and estimated work effort associated with it.
+
+Upon creation of the work assignment, the selected individual receives a notification of the newly given task.  The assigned individual then proceeds to perform the necessary work to complete the assignment.  If they are able to complete the task within the estimated timeframe, they close the assignment upon finishing.  However, if they see the effort required will be greater than the allotted amount of time or that the deadline will not be met they initiate a change request process asking for more time or an extension of the deadline.  The team leader of the service request then assesses the impact of the change request and decides on its approval.  Upon completion of all of the work assignments, the service request owner then marks the service request as complete and the customer is notified.  The customer then reviews the finished work and if satisfied with results closes their original work order.
+
+As information flows through the system with the potential of many different user groups interacting with it, the approaches taken to secure it play a key role in maintaining its integrity and meeting the privacy requirements set by the customer and internal policies.  One of the security measures taken by the system is determining the identity of the end user, be it the customer entering a new service requests or an internal employee closing their work assignment.  This is accomplished by forcing all users to login to the system with their statewide Active Directory account.  Each individual user is also assigned to roles and access to the system’s functionality and data is controlled by this role membership.  For customers, they are only able to view service requests they have submitted.  For internal employees, work request details are only viewable to those in assigned areas of responsibility.  For example, only the security team can view the details of a security service request.  Another security measure used by the system is the logging of all interactions.  This log forms an audit trail of the individual user actions taken against the system.
+
+The information captured and maintained by the work management system feeds into and is used by a number of other systems.  The individual work assignments feed into the department’s employee time tracking system.  For service requests that align with larger projects, assignment estimate and assignment change request information is shared between WMS and the department’s project management system.  This information sharing helps ensure that estimated work efforts and assignment of resource align to the formal project schedules.  Reporting is also another key area for the information within the WMS.  Department wide reports are created be pulling from the WMS system and combined with other sources.  Theses combined reports are analyzed to determine the efficiency of the department and drive future business decisions.
+
+As information flows through the work management system’s processes, it is important that it maintains its integrity and that the proper controls are in place to insure its continued validity.  If the proper flow and checks are not maintained, the customer’s work requests may not be completed in the timeframes they require and the validity of the completed work affected as tasks may be completed incorrectly.  Without proper information flow, ITD’s ability to efficiently manage and handle their customer’s needs is adversely affected.  Information and its effective utilization is a key factor to the future success of any business.
+
+- - -
+
+Published: April 25, 2013

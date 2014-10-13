@@ -1,0 +1,11 @@
+name = "8bitmage"
+license = "MIT"
+source_repo = ""
+description = "An elegant open source and mobile first theme"
+tags = ["blog", "company"]
+features = ["blog", ]
+
+[author]
+    name = "ecornell"
+    email = "elijah.cornell@gmail.com"
+    url = "http://8bitmage.com"

@@ -1,0 +1,18 @@
+baseurl: "http://8bitmage.com"
+languageCode: "en-us"
+title: "8-Bit Mage"
+footnotereturnlinkcontents: "↩"
+
+builddrafts: true
+
+theme: "8bitmage"
+
+permalinks:
+  post: /:year/:month/:title/
+
+indexes:
+#  category: "categories"
+  tag: "tags"
+
+params:
+  subtitle: "by Elijah Cornell"

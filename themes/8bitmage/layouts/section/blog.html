@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+{{ template "theme/chrome/head.html" . }}
+
+<body>
+
+  {{ template "theme/chrome/header.html" . }}
+
+  <div class="page-content">
+    <div class="wrap">
+
+      <div class="post-list">
+
+        <header class="post-header">
+          <h1>Blog Posts</h1>
+        </header>
+
+        <ul>
+          {{ range where .Data.Pages "Section" "blog"}}
+          <li>
+            <span class="post-title">
+            {{if .Draft}}[draft] {{end}}<a href="{{ .Permalink }}">{{ .Title }}</a>
+          </span>
+            <span class="time right">{{ .Date.Format "Jan 2, 2006" }}</span>
+
+          </li>
+          {{ end }}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

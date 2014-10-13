@@ -1,0 +1,11 @@
+---
+# layout: post
+title: "Location, Location, Location"
+date: "2013-05-03"
+# comments: true
+tags: mobile ios
+---
+
+A common practice on the iOS store is for developers/publishers to drop the price of their applications to free for a short period. They do this to drive up the number of downloads of the application, which raises the application’s position in the app store. The position and placement within the store is a key factor in generating sales. It goes with the saying in real estate, “There are three things that matter in property: location, location, location.”, the same holds true with the app store.
+
+Side note: Google does not allow developer/publishers to drop the price of a paid application to free on their store. Good or bad, its one less way to game their system.
