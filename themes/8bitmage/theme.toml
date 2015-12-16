@@ -3,7 +3,8 @@ license = "MIT"
 source_repo = ""
 description = "An elegant open source and mobile first theme"
 tags = ["blog", "company"]
-features = ["blog", ]
+features = ["blog", "themes"]
+min_version = 0.14
 
 [author]
     name = "ecornell"

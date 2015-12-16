@@ -36,8 +36,3 @@ Store Links
 * [Apple App Store](http://itunes.apple.com/app/wordpile/id541447454)
 * [Google Play](https://play.google.com/store/apps/details?id=com.eightbitmage.wordpile)
 * [Amazon](http://www.amazon.com/8-Bit-Mage-Software-Word-Pile/dp/B008J1337O)
-
-
-<a title="Corona SDK - Cross-platform Mobile Application Development" href="http://www.coronalabs.com/"><img src="http://www.coronalabs.com/images/showcase/Built_with_Corona_SM.png" border="0" alt="Cross-platform Mobile App Development Showcase" width="108" height="150" /></a>
-
-

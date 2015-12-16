@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
-{{ template "theme/chrome/head.html" . }}
+{{ partial "head.html" . }}
 <body>
 
-{{ template "theme/chrome/header.html" . }}
-test
+{{ partial "header.html" . }}
+
     <div class="content container">
   <ul class="posts">
       {{ range where .Data.Pages "Section" "post"}}
