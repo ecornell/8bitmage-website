@@ -1,5 +1,7 @@
 ---
-# layout: page
+#theme: 8bitmage
+#type: spage
+#layout: single
 # title: "Papers"
 # date: 2012-10-05 21:54
 # comments: false

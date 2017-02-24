@@ -1,5 +1,5 @@
 ---
-# layout: page
+#layout: page
 title: "Fault Handling in Distributed Systems"
 # date: 2013-10-05 21:54
 # comments: true

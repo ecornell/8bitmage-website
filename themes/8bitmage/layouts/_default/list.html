@@ -1,15 +1,28 @@
 {{ partial "head.html" . }}
 <body>
+<!-- themes/8bitmage/layouts/_default/list.html -->
 
 {{ partial "header.html" . }}
 
-    <div class="content container">
-  <ul class="posts">
-      {{ range where .Data.Pages "Section" "post"}}
-      <li><span><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</h4></time></span></span></li>
-      {{ end }}
-  </ul>
+    <div class="page-content">
+      <div class="wrap">
+
+        <div class="post">
+
+          <header class="post-header">
+            <h1>{{ .Title }}</h1>
+          </header>
+
+          <article class="post-content">
+            {{ .Content }}
+          </article>
+
+        </div>
+
+      </div>
     </div>
+
+{{ partial "footer.html" . }}
 
   </body>
 </html>

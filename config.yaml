@@ -1,9 +1,7 @@
-#baseurl: "//8bitmage.com"
+baseurl: "//8bitmage.com"
 languageCode: "en-us"
 title: "8-Bit Mage"
 footnotereturnlinkcontents: "↩"
-
-builddrafts: false
 
 theme: "8bitmage"
 
